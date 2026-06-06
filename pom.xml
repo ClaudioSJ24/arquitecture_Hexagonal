@@ -11,6 +11,7 @@
 	<groupId>com.sanchez</groupId>
 	<artifactId>juarez</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name/>
 	<description/>
 	<url/>
@@ -20,6 +21,13 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>juarez_api</module>
+		<module>juarez_application</module>
+		<module>juarez_common</module>
+		<module>juarez_domain</module>
+		<module>juarez_infrastructure</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
